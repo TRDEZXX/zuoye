@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .out {
+        width: 400px;
+        height: 400px;
+        border: #000 solid 1px;
+        margin: 50px auto;
+        overflow: hidden;
+        position: relative;
+    }
+    .in {
+        width: 300px;
+        height: 300px;
+        background-color: gray;
+        position: absolute;
+        bottom: 0px;   
+        right: 50px;
+        transition: all 0.6s;
+        text-align: center;
+        font-size: 63px;
+        background-image: url(./20210703_11313643_avatar.png.jpg);
+        box-shadow: 10px 8px 13px 16px rgba(90, 71, 71, 0.78);
+    }
+    .in:hover {
+        height: 400px;
+    }
+    input {
+        height: 80px;
+        width: 180px;
+        background-color: hotpink;
+        left: 21%;
+        position: absolute;
+        top: 180px;
+        font-size: 27px;
+    }
+    input:hover {
+        background-color: white;
+    }
+</style>
+<body>
+    <div class="out">
+        <div class="in">
+            <span>CARD</span>
+            <input type="button" value="READ MORE">
+        </div>
+    </div>
+</body>
+</html>
